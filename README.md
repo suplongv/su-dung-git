@@ -24,7 +24,7 @@ git config --global user.name "Tên đăng nhập của bạn"
 ```
   + Ví dụ : git config --global user.name suplongv
 
-
+-
 
 ``` bash
 git config --global user.email "email@domain.com"
