@@ -1,9 +1,9 @@
 <p align="center" >
-REPOSITORY NÀY ĐỂ LÀM BÀI TẬP NHÓM KỸ THUẬT LẬP TRÌNH
+SỬ DỤNG GIT
 </p>
 
 <p align="center">
-NHÓM 2 - KTLT :wave: :wave:
+GIT - GITHUB
 </p>
 
 
