@@ -85,11 +85,21 @@ __LƯU Ý QUAN TRỌNG :__
 
 ---
 
+__KHI BẠN ĐANG CÓ 2 TÀI KHOẢN GITHUB TRONG 1 LAPTOP:__
+
+- Trước tiên luôn kiểm tra trong git của bạn đang sử dụng email gì
+```
+  bash
+  git config --global user.email
+```
+
+- Xong muốn sử dụng mail nào thì sử dụng lệnh dưới
+```
+  bash
+  git config user.email "domaintest@domaintest.com.vn"
+```
+
+
 HẾT
 
 __Cảm ơn bạn đã đọc hướng dẫn này! Hy vọng bạn sẽ thành công trong việc sử dụng Git và GitHub để làm việc nhóm. Chúc bạn có một ngày làm việc hiệu quả! 🚀__
-
-
-
-
-
