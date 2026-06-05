@@ -98,7 +98,37 @@ __KHI BẠN ĐANG CÓ 2 TÀI KHOẢN GITHUB TRONG 1 LAPTOP:__
   bash
   git config user.email "domaintest@domaintest.com.vn"
 ```
+- Và Tài khoản A của bạn là tài khoản gốc (có prj riêng của bạn) và bạn muốn sử dụng Tài Khoản B chỉ để sử dụng để làm việc nhóm học tập, dự án chung thì có thể sử dụng các bước sau:
 
+```
+  bash
+  Vô phần avt 
+  -> Settings 
+
+  -> Kéo xuống ấn Developer settings 
+
+  -> Personal access token 
+
+  -> Tokens (classic) 
+
+  -> Generate new token 
+
+  -> Generate new token (classic)
+
+  -> Chọn note (Đặt tên mà bạn muốn ví dụ Token_hocTap)
+
+  -> ấn vô ô Repo -> Generate token
+
+  -> Copy token 
+```
+- Sau đó khi bạn git add . và git commit -m "noi dung" xong thì bạn chỉ cần sử dụng lệnh
+
+```
+  bash
+  git remote set-url origin https://<TOKEN Ở TRÊN ĐÃ COPY>@github.com/vi-du-cai-link-ban-dang-lam.git
+```
+
+---
 
 HẾT
 
