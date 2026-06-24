@@ -96,6 +96,25 @@ __KHI BẠN ĐANG CÓ 2 TÀI KHOẢN GITHUB TRONG 1 LAPTOP:__
 ``` bash
   git config user.email "domaintest@domaintest.com.vn"
 ```
+__HOẶC__
+
+Cấu hình tài khoản sử dụng trên toàn hệ thống (Global):
+``` bash
+  git config --global user.name "Tên_của_bạn"
+
+  git config --global user.email "email@example.com"
+```
+
+Cấu hình cho một kho lưu trữ cục bộ cụ thể (Local - sử dụng khi cần thay đổi tài khoản cho một dự án riêng biệt):
+
+``` bash
+  git config user.name "Tên_của_bạn"
+
+  git config user.email "email@example.com"
+```
+
+
+
 - Và Tài khoản A của bạn là tài khoản gốc (có prj riêng của bạn) và bạn muốn sử dụng Tài Khoản B chỉ để sử dụng để làm việc nhóm học tập, dự án chung thì có thể sử dụng các bước sau:
 ``` bash
   Vô phần avt 
